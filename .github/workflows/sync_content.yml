@@ -17,6 +17,7 @@ jobs:
           translations-path: "web/pandas/content/"
           translations-source-path: "web/pandas/content/en/"
           translations-ref: "main"
+          auto-merge: "false"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
