@@ -13,8 +13,8 @@ files:
     translation: /web/pandas/content/%two_letters_code%/%original_file_name%
     update_option: "update_as_unapproved"
   - source: /web/pandas/content/en/about/*.md
-    translation: /web/pandas/content/%two_letters_code%/case-studies/%original_file_name%
+    translation: /web/pandas/content/%two_letters_code%/about/%original_file_name%
     update_option: "update_as_unapproved"
   - source: /web/pandas/content/en/community/*.md
-    translation: /web/pandas/content/%two_letters_code%/case-studies/%original_file_name%
+    translation: /web/pandas/content/%two_letters_code%/community/%original_file_name%
     update_option: "update_as_unapproved"
