@@ -1,10 +1,10 @@
 name: Sync Content
 on:
   # schedule:
-  #   - cron: '0 5 * * *'
+  #   - cron: '0 5 * * *'  # Daily at 5 am
   workflow_dispatch:
 jobs:
-  sync:
+  sync_content:
     runs-on: ubuntu-latest
     steps:
       - name: Sync Pandas Content
