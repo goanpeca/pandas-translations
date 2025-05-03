@@ -1,0 +1,58 @@
+ar: []
+ca: []
+es:
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/135/large/59ad5b2b5c935e1ad9edcfe70f6545c1.jpeg
+  name: Yeimi
+  username: yeimiyaz
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/159/large/08ba42ad7a86bb65dfb892a21b52dc0c.png
+  name: Gonzalo Peña-Castellanos
+  username: goanpeca
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/171/large/c3555aa95dec83989f7c81cf31c8987e.jpeg
+  name: Carolina
+  username: carolinashima
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/175/large/b0d683515d328988d9cfa137f80d43e9_default.png
+  name: connie.fs
+  username: connie.fs
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/197/large/90a079b1b91f5c30cd3b4e68e84df453.jpeg
+  name: Sofía Vits
+  username: principioincertidumbre
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/143/large/d84181fc314a335096fef91bac4192f9.png
+  name: Riva Quiroga
+  username: rivaquiroga
+fa:
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/177/large/48eb5e524f573e780e96579d0e5717a4.jpeg
+  name: iiiita
+  username: iiiita
+fr:
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/157/large/5dd77d6fa1b76e93323200a3c15c5e8c.jpeg
+  name: Ariane Djeupang J
+  username: arianedjeupang
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/193/large/c3251f5e0c70c3cc3d0197ed677e4a6c.png
+  name: Claire Filtz
+  username: clairefiltz
+hi: []
+ja:
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/127/large/ed14b4e68675fcb1d46d28512da0d894.jpeg
+  name: Kozo Nishida
+  username: kozo2
+ko: []
+pl: []
+pt-BR:
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/24/large/86c090db47578559b8a4e26bd0b1a82d.jpeg
+  name: Melissa Weber Mendonça
+  username: melissawm
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/179/large/a33d23a08e29e6a788c73598315b6b5f_default.png
+  name: Rafael Fontenelle
+  username: rffontenelle
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/185/large/35817692e7fe01fc5bae146f3c5c632b.jpeg
+  name: José Carlos Barbosa
+  username: carlossb1
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/120/large/de70edaea8335bdcba77e83d98093113.jpeg
+  name: Luiz Eduardo Amaral
+  username: luxedo
+ru: []
+ta:
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/161/large/45e76aee57d7b3b6fc60d4c0551f411a.jpeg
+  name: Rajasekaran Karunanithi
+  username: rajasekaran86
+zh-CN: []
