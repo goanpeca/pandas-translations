@@ -10,7 +10,6 @@ jobs:
       - name: Sync Pandas translations
         uses: Scientific-Python-Translations/translations-sync@main
         with:
-          # Provided by user
           crowdin-project: "Pandas"
           source-repo: "pandas-dev/pandas"
           source-folder: "web/pandas/"
@@ -24,7 +23,8 @@ jobs:
           use-pre-commit: "false"
           create-upstream-pr: "false"
           auto-merge: "false"
-          # Provided by organization secrets
+          # These are provided by the Scientific Python Project and allow
+          # automation with bots
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           token: ${{ secrets.TOKEN }}
