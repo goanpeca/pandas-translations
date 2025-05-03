@@ -10,7 +10,7 @@ jobs:
       - name: Clean Pandas translation repository
         uses: Scientific-Python-Translations/clean-up@main
         with:
-          translations-repo: ""Scientific-Python-Translations/pandas-translations""
+          translations-repo: "Scientific-Python-Translations/pandas-translations"
           translations-ref: "main"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
