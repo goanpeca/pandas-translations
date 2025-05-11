@@ -8,21 +8,18 @@ base_path: ./
 preserve_hierarchy: true
 files:
   # Update this to the correct extensions of your project
-  - source: /web/pandas/config.yml
+  - source: /web/pandas/en/config.yml
     translation: /web/pandas/%two_letters_code%/%original_file_name%
     update_option: "update_as_unapproved"
-  - source: /web/pandas/index.html
+  - source: /web/pandas/en/index.html
     translation: /web/pandas/%two_letters_code%/%original_file_name%
     update_option: "update_as_unapproved"
-  - source: /web/pandas/config.yml
+  - source: /web/pandas/en/*.md
     translation: /web/pandas/%two_letters_code%/%original_file_name%
     update_option: "update_as_unapproved"
-  - source: /web/pandas/*.md
-    translation: /web/pandas/%two_letters_code%/%original_file_name%
-    update_option: "update_as_unapproved"
-  - source: /web/pandas/about/*.md
+  - source: /web/pandas/en/about/*.md
     translation: /web/pandas/%two_letters_code%/about/%original_file_name%
     update_option: "update_as_unapproved"
-  - source: /web/pandas/community/*.md
+  - source: /web/pandas/en/community/*.md
     translation: /web/pandas/%two_letters_code%/community/%original_file_name%
     update_option: "update_as_unapproved"
