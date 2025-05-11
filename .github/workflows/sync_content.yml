@@ -15,7 +15,7 @@ jobs:
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/pandas-translations"
           translations-path: "web/pandas/"
-          translations-source-path: "web/pandas/"
+          translations-source-path: "web/pandas/en/"
           translations-ref: "main"
           auto-merge: "false"
           # These are provided by the Scientific Python Project and allow

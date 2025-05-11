@@ -12,15 +12,15 @@ jobs:
         with:
           crowdin-project: "Pandas"
           source-repo: "pandas-dev/pandas"
-          source-folder: "web/pandas/"
+          source-path: "web/pandas/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/pandas-translations"
           translations-path: "web/pandas/"
-          translations-source-path: "web/pandas/"
+          translations-source-path: "web/pandas/en/"
           translations-ref: "main"
           translation-percentage: "90"
           approval-percentage: "0"
-          use-pre-commit: "false"
+          use-precommit: "false"
           create-upstream-pr: "false"
           auto-merge: "false"
           # These are provided by the Scientific Python Project and allow
