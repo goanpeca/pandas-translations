@@ -3,7 +3,6 @@ window.addEventListener("DOMContentLoaded", function() {
   var CURRENT_LANGUAGE = document.documentElement.lang;
   var PATHNAME = location.pathname.replace('/' + CURRENT_LANGUAGE + '/', '')
   var languages = JSON.parse(document.getElementById("languages").getAttribute('data-lang').replace(/'/g, '"'));
-  console.log(BASE_URL, CURRENT_LANGUAGE, PATHNAME);
   const language_names = {
         'en': 'English',
         'es': 'Español',
@@ -37,11 +36,11 @@ window.addEventListener("DOMContentLoaded", function() {
       dropdownItem.setAttribute("href", "#");
       dropdownItem.addEventListener("click", function() {
         if (i == 'en') {
-          URL_LANGUAGE = '/';
+          URL_LANGUAGE = '';
         } else {
           URL_LANGUAGE = '/' + i;
         }
-        var PATHNAME = location.pathname.replace('/' + CURRENT_LANGUAGE + '/', '')
+        var PATHNAME = location.pathname.replace('/' + CURRENT_LANGUAGE + '/', '/')
         var newUrl = BASE_URL + URL_LANGUAGE + PATHNAME
         window.location.href = newUrl;
       });
