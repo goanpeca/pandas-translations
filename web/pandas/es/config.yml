@@ -208,6 +208,5 @@ translations:
   url: https://github.com/Scientific-Python-Translations/pandas-translations/archive/refs/heads/main.tar.gz
   folder: translations
   default_language: 'en'
-  default_prefix: ''
   ignore:
     - docs/
