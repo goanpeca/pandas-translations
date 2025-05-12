@@ -1,19 +1,14 @@
 window.addEventListener("DOMContentLoaded", function() {
-
-  // ABS_BASE_URL is the full URL
-  // e.g. https://pandas.pydata.org/en/getting_started.html
-  var ABS_BASE_URL = document.baseURI;
+  var BASE_URL = location.protocol + "//" + location.hostname + ":" + location.port
   var CURRENT_LANGUAGE = document.documentElement.lang;
+  var PATHNAME = location.pathname.replace('/' + CURRENT_LANGUAGE + '/', '')
   var languages = JSON.parse(document.getElementById("languages").getAttribute('data-lang').replace(/'/g, '"'));
-
+  console.log(BASE_URL, CURRENT_LANGUAGE, PATHNAME);
   const language_names = {
         'en': 'English',
-        'es': 'EspaÃ±ol',
-        'zh': 'ä¸­æ–‡',
-        'ja': 'æ—¥æœ¬èªž',
-        'ko': 'í•œêµ­ì–´',
-        'fr': 'FranÃ§ais',
-        'pt': 'PortuguÃªs'
+        'es': 'Español',
+        'fr': 'Français',
+        'pt': 'Português'
       }
 
   // Create dropdown menu
@@ -41,7 +36,13 @@ window.addEventListener("DOMContentLoaded", function() {
       dropdownItem.textContent = language_names[i] || i.toUpperCase();
       dropdownItem.setAttribute("href", "#");
       dropdownItem.addEventListener("click", function() {
-        var newUrl = ABS_BASE_URL.replace('/' + CURRENT_LANGUAGE + '/', '/' + i + '/');
+        if (i == 'en') {
+          URL_LANGUAGE = '/';
+        } else {
+          URL_LANGUAGE = '/' + i;
+        }
+        var PATHNAME = location.pathname.replace('/' + CURRENT_LANGUAGE + '/', '')
+        var newUrl = BASE_URL + URL_LANGUAGE + PATHNAME
         window.location.href = newUrl;
       });
       dropdownMenu.appendChild(dropdownItem);
