@@ -1,0 +1,33 @@
+navbar:
+  - name: "Sobre nosotros"
+    target:
+    - name: "Acerca de pandas"
+      target: about/
+    - name: "Hoja de ruta"
+      target: about/roadmap.html
+    - name: "Gobernanza"
+      target: about/governance.html
+    - name: "Equipo"
+      target: about/team.html
+    - name: "Patrocinadores"
+      target: about/sponsors.html
+    - name: "Citas y logotipo"
+      target: about/citing.html
+  - name: "Primeros pasos"
+    target: getting_started.html
+  - name: "Documentación"
+    target: docs/
+  - name: "Comunidad"
+    target:
+    - name: "Blog"
+      target: community/blog/
+    - name: "Hacer una pregunta (StackOverflow)"
+      target: https://stackoverflow.com/questions/tagged/pandas
+    - name: "Código de conducta"
+      target: community/coc.html
+    - name: "Ecosistema"
+      target: community/ecosystem.html
+    - name: "Pruebas de rendimiento"
+      target: community/benchmarks.html
+  - name: "Contribuir"
+    target: contribute.html

@@ -8,7 +8,7 @@ base_path: ./
 preserve_hierarchy: true
 files:
   # Update this to the correct extensions of your project
-  - source: /web/pandas/en/config.yml
+  - source: /web/pandas/en/navbar.yml
     translation: /web/pandas/%two_letters_code%/%original_file_name%
     update_option: "update_as_unapproved"
   - source: /web/pandas/en/index.html
